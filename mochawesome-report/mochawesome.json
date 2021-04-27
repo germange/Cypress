@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-23T11:59:56.387Z",
-    "end": "2021-04-23T12:00:06.514Z",
-    "duration": 10127,
+    "start": "2021-04-27T11:29:40.621Z",
+    "end": "2021-04-27T11:29:51.589Z",
+    "duration": 10968,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bfa6b505-a51a-4c1e-a68b-2ede13a74805",
+      "uuid": "75aa5e13-42d9-42d4-9a1e-b6e6c7822f76",
       "title": "",
       "fullFile": "cypress\\integration\\examples\\tabeles.js",
       "file": "cypress\\integration\\examples\\tabeles.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "eb89e2d0-f5ba-44ad-bf63-22201caaa3ea",
+          "uuid": "72650355-c27c-42eb-888a-d28c3d55404a",
           "title": "Table",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Item check",
               "fullTitle": "Table Item check",
               "timedOut": null,
-              "duration": 7793,
+              "duration": 8506,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://rahulshettyacademy.com/AutomationPractice/\"); // tables\ncy.get('tr td:nth-child(2)').each(function ($el, index, $list) {\n  var text = $el.text();\n  if (text.includes('Python')) {\n    cy.get('tr td:nth-child(2)').eq(index).next().then(function (price) {\n      var pricetext = price.text();\n      expect(pricetext).to.equal('25');\n    });\n  }\n});",
               "err": {},
-              "uuid": "864b7643-5238-4329-a3f4-d4a112162980",
-              "parentUUID": "eb89e2d0-f5ba-44ad-bf63-22201caaa3ea",
+              "uuid": "7cd38fe4-c2a4-48fd-90a2-a674be25a8b0",
+              "parentUUID": "72650355-c27c-42eb-888a-d28c3d55404a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "864b7643-5238-4329-a3f4-d4a112162980"
+            "7cd38fe4-c2a4-48fd-90a2-a674be25a8b0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7793,
+          "duration": 8506,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
