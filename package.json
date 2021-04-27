@@ -8,7 +8,8 @@
     "test": "./node_modules/.bin/cypress run",
     "headtest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --chrome",
-    "recordDashboardTest": "npm run test -- --record --key a71a6572-d2e3-4d8f-a454-2418ec5c7cd1 --reporter mochawesome"
+    "recordDashboardTest": "npm run test -- --record --key a71a6572-d2e3-4d8f-a454-2418ec5c7cd1 --reporter mochawesome",
+    "folderRun": "npm run test -- --spec \"cypress/ontegration/examples/*\"" 
   },
   "author": "Gesha",
   "lisence": "ISC",
